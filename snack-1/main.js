@@ -54,7 +54,7 @@ const automobili = [
 
 const autoBenzina = automobili.filter(auto => auto.alimentazione === 'Benzina');
 const autoDiesel = automobili.filter(auto => auto.alimentazione === 'Diesel');
-const ibride = automobili.filter(auto => auto.alimentazione !== 'Benzina' && auto.alimentazione !== 'Diesel');
+const autoAlternative = automobili.filter(auto => auto.alimentazione !== 'Benzina' && auto.alimentazione !== 'Diesel');
 
-console.log(ibride,autoBenzina,autoDiesel);
+console.log(autoAlternative,autoBenzina,autoDiesel);
 
