@@ -46,7 +46,7 @@ const automobili = [
     },
     {
     marca: "Tesla",
-    modello: "model-Y",
+    modello: "Model-Y",
     alimentazione: "Elettrica"
     }
     ];
