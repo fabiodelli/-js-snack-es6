@@ -7,7 +7,7 @@ const automobili = [
     {
     marca: "Ford",
     modello: "Fiesta",
-    alimentazione: "Diesel"
+    alimentazione: "Metano"
     },
     {
     marca: "Volkswagen",
@@ -22,7 +22,7 @@ const automobili = [
     {
     marca: "Toyota",
     modello: "Yaris",
-    alimentazione: "Ibrida"
+    alimentazione: "Gpl"
     },
     {
     marca: "Opel",
