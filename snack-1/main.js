@@ -63,3 +63,4 @@ console.log(autoDiesel);
 const ibride = automobili.filter(auto => auto.alimentazione !== 'Benzina' && auto.alimentazione !== 'Diesel');
 
 console.log(ibride);
+
