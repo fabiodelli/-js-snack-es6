@@ -1,66 +1,60 @@
 const automobili = [
     {
-    marca: "Fiat",
-    modello: "Panda",
-    alimentazione: "Benzina"
+        marca: "Fiat",
+        modello: "Panda",
+        alimentazione: "Benzina"
     },
     {
-    marca: "Ford",
-    modello: "Fiesta",
-    alimentazione: "Metano"
+        marca: "Ford",
+        modello: "Fiesta",
+        alimentazione: "Metano"
     },
     {
-    marca: "Volkswagen",
-    modello: "Golf",
-    alimentazione: "Benzina"
+        marca: "Volkswagen",
+        modello: "Golf",
+        alimentazione: "Benzina"
     },
     {
-    marca: "Renault",
-    modello: "Clio",
-    alimentazione: "Diesel"
+        marca: "Renault",
+        modello: "Clio",
+        alimentazione: "Diesel"
     },
     {
-    marca: "Toyota",
-    modello: "Yaris",
-    alimentazione: "Gpl"
+        marca: "Toyota",
+        modello: "Yaris",
+        alimentazione: "Gpl"
     },
     {
-    marca: "Opel",
-    modello: "Corsa",
-    alimentazione: "Benzina"
+        marca: "Opel",
+        modello: "Corsa",
+        alimentazione: "Benzina"
     },
     {
-    marca: "Mercedes",
-    modello: "Classe A",
-    alimentazione: "Diesel"
+        marca: "Mercedes",
+        modello: "Classe A",
+        alimentazione: "Diesel"
     },
     {
-    marca: "Audi",
-    modello: "A3",
-    alimentazione: "Benzina"
+        marca: "Audi",
+        modello: "A3",
+        alimentazione: "Benzina"
     },
     {
-    marca: "BMW",
-    modello: "Serie 1",
-    alimentazione: "Diesel"
+        marca: "BMW",
+        modello: "Serie 1",
+        alimentazione: "Diesel"
     },
     {
-    marca: "Tesla",
-    modello: "Model-Y",
-    alimentazione: "Elettrica"
+        marca: "Tesla",
+        modello: "Model-Y",
+        alimentazione: "Elettrica"
     }
-    ];
-    
+];
+
 
 const autoBenzina = automobili.filter(auto => auto.alimentazione === 'Benzina');
-
-console.log(autoBenzina);
-
 const autoDiesel = automobili.filter(auto => auto.alimentazione === 'Diesel');
-
-console.log(autoDiesel);
-
 const ibride = automobili.filter(auto => auto.alimentazione !== 'Benzina' && auto.alimentazione !== 'Diesel');
 
-console.log(ibride);
+console.log(ibride,autoBenzina,autoDiesel);
 
